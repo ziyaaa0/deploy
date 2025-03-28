@@ -14,6 +14,6 @@ public class MainController {
 	@GetMapping("/")
 	@ResponseBody
 	public String main() {
-		return "hello:" + upload;
+		return "hello hi :" + upload;
 	}
 }
